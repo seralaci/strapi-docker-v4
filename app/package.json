@@ -1,0 +1,30 @@
+{
+  "name": "strapi-docker-v4",
+  "version": "1.0.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^0.0.1-alpha.70",
+    "@strapi/plugin-i18n": "4.0.0",
+    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/strapi": "4.0.0",
+    "mysql": "2.18.1",
+    "sqlite3": "5.0.2"
+  },
+  "author": {
+    "name": "László Séra"
+  },
+  "strapi": {
+    "uuid": "56c1ad10-389f-4c9f-b7ad-0562105e91eb"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": "^8.0.0"
+  },
+  "license": "MIT"
+}
