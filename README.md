@@ -10,7 +10,7 @@ Sample project for testing Strapi v4 on node v16
 
 
 ```bash
-git clone git@github.com:seralaci/strapi-docker-v4.git
+git clone https://github.com/seralaci/strapi-docker-v4.git
 cd strapi-docker-v4
 docker-compose up
 ```
